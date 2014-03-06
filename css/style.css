@@ -1,0 +1,99 @@
+@charset "utf-8";
+body {
+	background-image: url(../images/sysnovo_bg.png) !important;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+h1 {
+	color: #333;
+}
+.sys-header {
+	background: rgba(250, 250, 250, 0.7) !important;
+	border: none !important;
+	background-image: none;
+	-webkit-transition: all;
+	-moz-transition: all;
+	-ms-transition: all;
+	-o-transition: all;
+	height: 75px;
+}
+.sys-header .sys-contact-menu-icon {
+	float: right;
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+.sys-header .sys-header-menu-icon {
+	float: left;
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+
+.sys-footer {
+	background-color: #00cccc;
+	background-image: url(none);
+	text-align: center;
+}
+#welcome-page .ui-block-a,#welcome-page .ui-block-b,#welcome-page .ui-block-c,#welcome-page .ui-block-d {
+	width: 25%;
+}
+
+#home-page .sys-content-c ul {
+	margin: 0px;
+}
+
+#welcome-page div .ui-grid-c {
+	text-align: center;
+}
+#welcome-page div .ui-content {
+	text-align: center;
+}
+#welcome-page {
+	text-align: center;
+}
+#welcome-arrow {
+	padding-top: 45px;
+	padding-bottom: 20px;
+}
+
+#welcome-logo {
+	padding-top: 45px;
+	padding-right: 0px;
+	padding-bottom: 25px;
+	padding-left: 0px;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+	background-color: transparent !important;
+}
+.sys-content-c {
+	background-color: rgba(255,255,255,.9);
+	margin: 5px;
+	padding: 15px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	overflow: auto;
+}
+#map-canvas {
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	min-height: 400px;
+	box-sizing: border-box;
+}
+#map-page .sys-header h1 {
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+#map-page {
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
